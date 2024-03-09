@@ -1,10 +1,8 @@
 import {
   For,
   Show,
-  Switch,
   createEffect,
   createSignal,
-  startTransition,
 } from 'solid-js'
 import './App.css'
 import { age, msg, name } from './store'
